@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+    
+</head>
+  <body>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+ 
+}
+ h2{
+  color:black;
+
+  }
+ p{
+  color:black;}
+  label{
+  color:black;}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<div class="header">
+<div class="navbar">
+  <h1><a href="index.html">Home</a></h1>
+  <a href="general.html">Changes</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html" class="right">Contact</a>
+</div>
+<div class="container1">
+  <div style="text-align:center">
+    <h2>Contact Me</h2>
+    <p>You can either contact me here using this special form or via the links I provide on the right.</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="images/IMG_1219.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="email">LCC email</label>
+        <input type="text" id="email" name="email" placeholder="Your email in LCC system...">
+       
+        <label for="message">Message</label>
+        <textarea id="msg" name="msg" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text">Copyright &copy; 2021 Sofiia Hukailo. All rights reserved</p>
+                        <p class="copyright-text">Designed by Sofiia Hukailo for the Web-design project</a></p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+	   </body>
+</html>
